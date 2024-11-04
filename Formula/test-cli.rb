@@ -1,8 +1,8 @@
 class TestCli < Formula
     desc "Test CLI game"
     homepage "https://github.com/dev-red07/testcli"
-    url "https://github.com/dev-red07/testcli/archive/refs/tags/v0.0.1.tar.gz"
-    sha256 "c002f426ec08761791417df69d3c2c33743282d629201942b9726f2a8c6bc3f8"
+    url "https://github.com/dev-red07/testcli/archive/refs/tags/V0.0.2.tar.gz"
+    sha256 "5497ba256fb24122c636bc68b6f3c96059df13f143f508f7df855b7e1b196743"
     license "MIT"
   
     depends_on "node"
