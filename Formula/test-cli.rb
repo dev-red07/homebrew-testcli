@@ -8,7 +8,7 @@ class TestCli < Formula
     depends_on "node"
   
     def install
-       system "npm", "install", "--production"
+       system "npm", "install"
        bin.install "index.js" => "test-cli"
     end
   
