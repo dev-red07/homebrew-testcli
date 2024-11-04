@@ -9,7 +9,7 @@ class TestCli < Formula
   
     def install
        system "npm", "install", "--production"
-       bin.install_symlink libexec/"index.js" => "test-cli"
+       bin.install "index.js" => "test-cli"
     end
   
     test do
